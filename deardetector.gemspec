@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "deardevice/version"
+require "deardetector/version"
 
 Gem::Specification.new do |s|
-  s.name        = "deardevice"
-  s.version     = Deardevice::VERSION
+  s.name        = "deardetector"
+  s.version     = Deardetector::VERSION
   s.authors     = ["Gert Joergensen, Martin Kæstel Nielsen"]
   s.email       = ["info@parentnode.dk"]
-  s.homepage    = "http://dearapi.com"
+  s.homepage    = "http://detector.parentnode.dk"
   s.summary     = %q{Client library for Detector API}
   s.description = %q{Ruby client library for the Detector API - making browser segmentation easy. Read more at http://detector.parentnode.dk}
 
-  s.rubyforge_project = "deardevice"
+  s.rubyforge_project = "deardetector"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

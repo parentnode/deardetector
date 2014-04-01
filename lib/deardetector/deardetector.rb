@@ -1,4 +1,4 @@
-module Deardevice
+module Deardetector
   module Devices
     
     # Controller methods available in views
