@@ -5,11 +5,11 @@ require "deardevice/version"
 Gem::Specification.new do |s|
   s.name        = "deardevice"
   s.version     = Deardevice::VERSION
-  s.authors     = ["Gert Joergensen"]
-  s.email       = ["gert@hvadhedderde.com"]
+  s.authors     = ["Gert Joergensen, Martin Kæstel Nielsen"]
+  s.email       = ["info@parentnode.dk"]
   s.homepage    = "http://dearapi.com"
-  s.summary     = %q{Client library for DearAPI Devices API}
-  s.description = %q{Ruby client library for the DearAPI Devices API - making browser segmentation easy. Read more at http://dearapi.com}
+  s.summary     = %q{Client library for Detector API}
+  s.description = %q{Ruby client library for the Detector API - making browser segmentation easy. Read more at http://detector.parentnode.dk}
 
   s.rubyforge_project = "deardevice"
 

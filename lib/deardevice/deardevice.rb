@@ -7,7 +7,7 @@ module Deardevice
     end
     
     def browser_segment
-      fallback_segment = "desktop_light"
+      fallback_segment = "desktop"
       timeout_after_seconds = 6
       cookie_expires = 1.week.from_now
       
@@ -27,7 +27,7 @@ module Deardevice
       options = {
         :headers => { 'Accept' => "application/xml; charset=utf-8" },
         :ssl => { :verify => false },
-        :url => "http://devices.dearapi.com"
+        :url => "http://detector.dearapi.com"
       }
       
       connection = Faraday::Connection.new(options) do |conn|
