@@ -6,10 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "deardetector"
   s.version     = Deardetector::VERSION
   s.authors     = ["Gert Joergensen, Martin Kæstel Nielsen"]
+  s.licenses    = ['MIT']
   s.email       = ["info@parentnode.dk"]
-  s.homepage    = "http://detector.parentnode.dk"
+  s.homepage    = "https://detector.parentnode.dk"
   s.summary     = %q{Client library for Detector API}
-  s.description = %q{Ruby client library for the Detector API - making browser segmentation easy. Read more at http://detector.parentnode.dk}
+  s.description = %q{Ruby client library for the Detector API - making browser segmentation easy. Read more at https://detector.parentnode.dk}
 
   s.rubyforge_project = "deardetector"
 

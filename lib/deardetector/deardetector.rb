@@ -27,7 +27,7 @@ module Deardetector
       options = {
         :headers => { 'Accept' => "application/xml; charset=utf-8" },
         :ssl => { :verify => false },
-        :url => "http://detector.dearapi.com"
+        :url => "https://detector.dearapi.com"
       }
       
       connection = Faraday::Connection.new(options) do |conn|
