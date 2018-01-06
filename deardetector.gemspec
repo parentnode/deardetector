@@ -27,6 +27,6 @@ Gem::Specification.new do |s|
   # Needed to run
   s.add_runtime_dependency('faraday')
   s.add_runtime_dependency('faraday_middleware')
-  s.add_runtime_dependency('multi_xml')
+  s.add_runtime_dependency('multi_xml', '~> 0.5.3')
   s.add_runtime_dependency('hashie')
 end
